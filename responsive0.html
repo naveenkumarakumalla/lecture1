@@ -4,19 +4,25 @@
     <meta charset="utf-8">
     <title></title>
     <style>
-@media (min-width: 500px) {
-body{
-  background-color: blue;
+@media (min-width: 1000px) {
+  body{
+    background-color: red;
+  }
+h1::before{
+  content: "Welcome to my webpage";
 }
 }
-@media (max-width: 499px) {
-body{
-  background-color: green;
-}
+@media (max-width: 999px) {
+  body{
+    background-color: Green;
+  }
+  h1::before{
+    content: "Welcome!";
+  }
 }
   </style>
   </head>
   <body>
-    <h1>My Web Page</h1>
+    <h1></h1>
   </body>
 </html>
